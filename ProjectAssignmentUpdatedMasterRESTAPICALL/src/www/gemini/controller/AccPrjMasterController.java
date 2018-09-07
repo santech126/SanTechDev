@@ -27,6 +27,7 @@ public class AccPrjMasterController {
 	private AccPrjmasterService service;
 	
 	//For add  Master table
+	
 	@SuppressWarnings("unused")
 	@RequestMapping(value= "/adder", method = RequestMethod.POST)
 	public String addEmp(@ModelAttribute("Master") @Valid AccPrjMaster e,BindingResult result,Model model){
